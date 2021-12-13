@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2144279629049089280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3468449630011194279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48885fee737fef4a8d545ca945477d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpdatePose: 0
+  Pose1: {fileID: 11400000, guid: cd1585b0cd5a39741b0e61743cc4fd76, type: 2}
+  Pose2: {fileID: 11400000, guid: 37c58beb38c304848a42a5c51b90ba4e, type: 2}
+  ThumbValue: 0
+  IndexValue: 1
+  MiddleValue: 1
+  RingValue: 1
+  PinkyValue: 0
+  GripValue: 0
+--- !u!114 &8910970232166762298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3468449630011194279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07983061a06171447aaaf783c12c55fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fingers:
+  - 0
+  - 0
+  - 0
+  - 0
+  openHandPose: {fileID: 11400000, guid: 37c58beb38c304848a42a5c51b90ba4e, type: 2}
+  closedHandPose: {fileID: 11400000, guid: cd1585b0cd5a39741b0e61743cc4fd76, type: 2}
+  handPoser: {fileID: 0}
+--- !u!1001 &1904776366550071368
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379756717330143573, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048172291732030447, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+      propertyPath: m_Name
+      value: Flex Hand
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6824060128919144504, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+--- !u!1 &3468449630011194279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3048172291732030447, guid: 746d3998901283d41bfc69fa367ff491, type: 3}
+  m_PrefabInstance: {fileID: 1904776366550071368}
+  m_PrefabAsset: {fileID: 0}
