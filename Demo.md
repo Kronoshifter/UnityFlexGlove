@@ -1,9 +1,8 @@
 ---
-theme: jekyll-theme-time-machine
 layout: page
 title: "Demo"
 permalink: /demo/
 ---
 
 # Demo
-Video goes here
+[Demo](https://youtu.be/Pv7-S3UqI8g)
