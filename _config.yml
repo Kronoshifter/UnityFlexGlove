@@ -4,4 +4,4 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: pages
     values:
-    theme: jekyll-theme-time-machine
+      theme: jekyll-theme-time-machine
