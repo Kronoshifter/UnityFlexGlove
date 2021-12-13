@@ -1,4 +1,5 @@
 ---
+theme: jekyll-theme-time-machine
 layout: page
 title: "Demo"
 permalink: /demo/
