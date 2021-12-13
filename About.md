@@ -14,7 +14,9 @@ Arduino Sketch was made by me, using the Uduino libraries to facilitate communic
 
 ## Contact
 The Mind Behind It All, Marshall Mattle  
-kronoshifter@gmail.com
+[kronoshifter@gmail.com](kronoshifter@gmail.com)
 
 Faculty Sponsor, Rogelio E. Cardonera-Rivera, Ph.D.  
-rogelio@cs.utah.edu
+[rogelio@cs.utah.edu](rogelio@cs.utah.edu)
+
+[Back to Home](/index.md)
