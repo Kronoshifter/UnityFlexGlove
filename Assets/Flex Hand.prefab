@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48885fee737fef4a8d545ca945477d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UpdatePose: 0
+  UpdatePose: 1
   Pose1: {fileID: 11400000, guid: cd1585b0cd5a39741b0e61743cc4fd76, type: 2}
   Pose2: {fileID: 11400000, guid: 37c58beb38c304848a42a5c51b90ba4e, type: 2}
   ThumbValue: 0
@@ -38,9 +38,18 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+  gyro:
+  - 0
+  - 0
+  - 0
+  accelerometer:
+  - 0
+  - 0
+  - 0
   openHandPose: {fileID: 11400000, guid: 37c58beb38c304848a42a5c51b90ba4e, type: 2}
   closedHandPose: {fileID: 11400000, guid: cd1585b0cd5a39741b0e61743cc4fd76, type: 2}
   handPoser: {fileID: 0}
+  blender: {fileID: 0}
 --- !u!1001 &1904776366550071368
 PrefabInstance:
   m_ObjectHideFlags: 0
