@@ -14,5 +14,5 @@ Website: https://github.com/Kronoshifter/UnityFlexGlove
 ## Pages
 
 - [About](/About.md)
-- [Features](/Factsheet.md)
+- [Features](/Features.md)
 - [Demo](/Demo.md)
