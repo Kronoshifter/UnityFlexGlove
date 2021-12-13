@@ -1,5 +1,5 @@
 ---
-jekyll-theme-time-machine
+theme: jekyll-theme-time-machine
 layout: page
 title: "Features"
 permalink: /features/
